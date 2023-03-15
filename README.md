@@ -25,4 +25,5 @@ pub extern "C" fn mosquitto_auth_plugin_init(
     // Initialize your plugin here
     println!("Mosquitto authentication plugin initialized");
     MOSQ_ERR_SUCCESS
-}```
+}
+```
