@@ -1,0 +1,16 @@
+[package]
+name = "mosquitto-io"
+version = "0.1.0"
+authors = ["Arshid"]
+description = "System bindings to libmosquitto"
+documentation = "https://github.com/arshidkv12/mosquitto-io"
+homepage = "https://github.com/arshidkv12/mosquitto-io"
+repository = "https://github.com/arshidkv12/mosquitto-io"
+license = "MIT"
+build = "build.rs"
+links = "mosquitto"
+
+
+[build-dependencies]
+bindgen = "*"
+cc = "*"
